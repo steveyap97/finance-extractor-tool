@@ -35,7 +35,7 @@ Function to process over each indexes to extract them
 def extraction(output_data, WATCHLIST):
 
     # Run Yahoo API with 1 indexes at a time. 
-    # To test: running more at once seems slower
+    # can run multiple as well
     n = 1
 
     for category in WATCHLIST:
